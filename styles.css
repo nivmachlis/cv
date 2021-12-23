@@ -1,0 +1,22 @@
+#title{
+    text-align: center;
+}
+
+#meDancingImage{
+    height: 10%;
+    width: 5%;
+    display: inline-block;
+    
+}
+
+.menu{
+    height: 10%;
+    width: 100%;
+    display:flex;
+    background-color: whitesmoke;
+}
+
+.menuItem{
+    width: 25%;
+    display:inline-block;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Niv Machlis's Resume</title>
+    </head>
+    <body>
+        <h1 id = "title">Niv Machlis</h1>
+        <img  id = "meDancingImage" src = "images/Dancing.jpg" alt = "">
+        <hr>
+        <div class = "menu">
+            <a href = "Aboutme.html"  class = "menuItem" >About Me</a>
+            <a href = "Work.html" class = "menuItem"> Work Experience</a>
+            <a href = "Skills.html" class = "menuItem">Skills</a>
+            <a href = "Education.html" class = "menuItem" >Education</a>
+            <a href ="Contact.html" class = "menuItem">Contact Me</a>
+        </div>
+        <div id = "contact">
+            <a href = "https://www.linkedin.com/in/niv-machlis/">LinkedIn Account</a>     
+            <p>nivmachliss@gmail.com</p> 
+            <p>Phone Number: 054-9983040</p>
+            <form class="form" action="index.html" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">Your Email Address:</label>
+                <input type="text" id="email" name="email">
+                <br>
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company">
+                <br>
+                <label for="role">Role:</label>
+                <input type="text" id="role" name="role">
+                <br>
+                <label for="cars">Job Type:</label>
+                <select id="cars" name="cars">
+                  <option value="full-time">Full time</option>
+                  <option value="part-time">Part time</option>
+                  <option value="Internship">Internship</option>
+                </select>
+                <br>
+                <label for="date">Starting Date</label>
+                <input type = "date" id="start_date" name="start_date">
+                <br>
+                <input type="submit">
+            </form>
+    </body>
+</html>
